@@ -1,5 +1,75 @@
-body 
-{
-    text-align: center;
-    font-family: "Arial";
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Estilos de la cabecera */
+header {
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo y eslogan */
+.logo h1 {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Estilos del menú de navegación */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #0056b3;
+}
+
+/* Botón de llamado a la acción */
+.cta button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+    background-color: #0056b3;
 }
